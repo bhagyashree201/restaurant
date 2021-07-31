@@ -1,0 +1,189 @@
+body{
+    margin:0;
+    overflow-x:hidden;
+    font-family: 'Gotham Rounded A','Gotham Rounded B', Helvetica,Arial,sans-serif;
+    
+}
+
+.navigation{
+    margin:none;
+    display: block;
+    width:100%;
+    font-size: 25px;
+    background-color: white;
+    position:fixed;
+    top:0;
+    z-index: 1;
+    
+}
+.navigation:hover{
+    background-color: none;
+}
+.logo{
+    display:inline;
+    float:left;
+    padding-left:3%;
+
+}
+.navbar{
+    width:60%;
+    display:inline;
+    float:right;
+    padding-top: 2.5%;
+
+}
+.nav{
+    margin-right: 7%;
+    text-decoration: none;
+    color:darkgreen;
+    padding:0;
+    font-size: larger;
+}
+.nav:hover{
+    letter-spacing: 110%;
+    transition:all 0.3s linear;
+}
+.main{
+    margin:0;
+    padding: 0;
+    background-image: url("restraunt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    place-items: center;
+    vertical-align: middle;
+    height:50rem;
+    width:100%;
+
+
+}
+.tagline{
+    
+    text-align:right;
+     font-size:40px;
+     position: relative;
+     top:15%;
+
+}
+
+.special{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    justify-content: center;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.box1,.box2,.box3{
+    width:30%;
+    display:inline-block;
+    border:black solid 4px;
+    border-radius: 5px;
+    margin:4%;
+}
+.box1:hover,.box2:hover,.box3:hover{
+transform: scale(110%);
+border:maroon solid 7px;
+}
+.card h3{
+    font-size: large;
+    margin:none;
+
+}
+.card p{
+    font-size: medium;
+    margin:none;
+}
+.net-price{
+    color:orangered;
+    font-size: large;
+}
+.mrp{
+    text-decoration: line-through;
+    font-size: medium;
+}
+.discount{
+    font-size: large;
+}
+.food-card-btn{
+    
+        display: inline-block;
+        position: relative;
+        padding:10px 5px;
+        margin: 20px 0;
+        text-decoration: none;
+        color: green;
+        font-family: "Lato", sans-serif;
+        font-size: medium;
+        cursor: pointer;
+        text-align: center;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        border: 4px solid green;
+        border-radius: 3px;
+        transition: all .2s;
+    
+}
+
+.review{
+    text-align: center;
+}
+.review h1{
+    font-size: 45px;
+}
+.f{
+    width:30%;
+    display:inline-block;
+    border:black solid 5px;
+    border-radius: 5px;
+    margin:4%;
+    margin-top: 0;
+
+}
+
+.form{
+    width:40%;
+    display:inline-block;
+    border:black solid 5px;
+    border-radius:4px;
+    justify-content: center;
+    padding:2.5%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5%;
+
+}
+
+.feed-submit{
+    color:aliceblue;
+    background-color: darkgreen;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer{
+    color:white;
+    background-color: rgb(9, 9, 71);
+    font-size: medium;
+
+}
+.terms{
+    text-decoration: none;
+    color:white;
+    margin-left: 0;
+}
+.media{
+    padding: 3%;
+    height:50px;
+    width:50px;
+   
+    color:white;
+    border-radius: 50%;
+    margin:3%;
+
+}
