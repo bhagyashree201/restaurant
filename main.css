@@ -1,7 +1,7 @@
 body{
     margin:0;
     overflow-x:hidden;
-    font-family: 'Gotham Rounded A','Gotham Rounded B', Helvetica,Arial,sans-serif;
+    font-family: "edo-webfont", "Lato", sans-serif;
     
 }
 
@@ -130,6 +130,10 @@ border:maroon solid 7px;
     
 }
 
+.food-card-btn:hover{
+    transform: scale(110%);
+}
+
 .review{
     text-align: center;
 }
@@ -166,6 +170,34 @@ border:maroon solid 7px;
     font-size: larger;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
+.menu{
+    margin-top:7%;
+    text-align: center;
+
+}
+.menu img{
+    height: 200px;
+    width:200px;
+}
+.menu h2{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+
+}
+.food-type{
+    display: flex;
+    flex-direction: column;
+}
+.food{
+    border:black solid 4px;
+    border-radius:5px;
+    margin:5%;
+    padding:3%;
+
+}
 .footer{
     color:white;
     background-color: rgb(9, 9, 71);
@@ -175,7 +207,8 @@ border:maroon solid 7px;
 .terms{
     text-decoration: none;
     color:white;
-    margin-left: 0;
+    margin: 0;
+    padding:0;
 }
 .media{
     padding: 3%;
@@ -186,4 +219,16 @@ border:maroon solid 7px;
     border-radius: 50%;
     margin:3%;
 
+}
+.sm{
+    width:40%;
+    display:flex;
+    flex-direction: row;
+    margin:0;
+    padding:0;
+
+}
+.tnc,.address{
+    margin:2%;
+    padding:0;
 }
